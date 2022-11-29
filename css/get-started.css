@@ -1,0 +1,186 @@
+/* === Journey section Beginning === */
+.journey-section{ float: left; width: 100%; margin-top: 121px;}
+.journey-section .common-wrap{ max-width: 1332px;}
+.journey-inner{ float: left; width: 100%; background-color: #fcf3e0; border-radius: 90px;  padding: 58px 0 81px 0;}
+.journey-main{ max-width: 648px; margin: 0 auto;}
+.journey-thumb{ float: left; width: 100%; text-align: center;}
+.journey-thumb picture{ display: inline-block; width: 80px;}
+.journey-thumb picture img{ display: block; margin: 0 auto;}
+.journey-content{ float: left; width: 100%; margin-top: 6px;}
+.journey-content h5{ text-align: center;}
+.journey-content h2{ text-align: center; margin-top: 14px;}
+.journey-content h2 em{font-family: 'HelveticaBold', sans-serif;}
+.journey-content p{ text-align: center; font-size: 14px; line-height: 22px; letter-spacing: 0.58px; font-family: 'AeonikBold'; font-weight: normal; margin-top: 21px;}
+/* === Journey section End === */
+
+/* === Communication section Beginning === */
+.communication-section{ float: left; width: 100%; margin-top: 31px;}
+.communication-section .common-wrap{ max-width: 1332px;}
+.communication-inner{ float: left; width: 100%; background-color: #f7fbfc; border-top-left-radius: 90px; border-top-right-radius: 90px; padding: 52px 0 124px 0;}
+.communication-main{ max-width: 534px; margin: 0 auto;}
+.communication-form{ float: left; width: 100%;}
+.communication-form-row{ float: left; width: 100%; margin-top: 29px;}
+.communication-form-row label{ display: block; width: 100%; font-size: 14px; line-height: 22px; letter-spacing: 0.58px; color: #0f5569; font-family: 'AeonikBold'; font-weight: normal;}
+.communication-form-row input[type="text"]{ width: 100%; height: 66px; border: 1px solid #0f5569; border-radius: 14px; font-size: 18px; color: #0f5569; line-height: 66px; font-family: 'AeonikRegular'; font-weight: normal; margin-top: 12px; padding: 0 29px; background-color: #ffffff;}
+.communication-form-row input::placeholder{ font-size: 18px; color: #0f5569; line-height: 66px; font-family: 'AeonikRegular'; font-weight: normal;}
+.communication-form-row input:focus{ background-color: #ebf2f4;}
+.communication-form-row input[type="email"]{ width: 100%; height: 66px; border: 1px solid #0f5569; border-radius: 14px; font-size: 18px; color: #0f5569; line-height: 66px; font-family: 'AeonikRegular'; font-weight: normal; margin-top: 11px; padding: 0 29px; background-color: #ebf2f4;}
+.communication-form-row input[type="tel"]{ width: 100%; height: 66px; border: 1px solid #0f5569; border-radius: 14px; font-size: 18px; color: #0f5569; line-height: 66px; font-family: 'Helvetica'; font-weight: normal; margin-top: 11px!important; padding: 0 29px; background-color: #ebf2f4;}
+.referrer-form-row input{background-color: #ebf2f4 !important;}
+.communication-form-row input[type="submit"]{ width: 100%; height: 66px; background-color: #0f5569; border: none; border-radius: 11px; font-size: 20px; color: #ffffff; text-align: center; letter-spacing: -0.5px; font-family: 'AeonikBold'; font-weight: normal; margin-top: 15px;}
+
+.communication-form-col{ float: left; width: 100%; margin-top: 31px;}
+.communication-form-col label{ display: block; width: 100%; font-size: 14px; line-height: 22px; letter-spacing: 0.58px; color: #0f5569; font-family: 'AeonikBold'; font-weight: normal;}
+.communication-form-col textarea{ width: 100%; background-color: #ebf2f4; border: 1px solid #0f5569; border-radius: 14px; font-size: 18px; line-height: 22px; color: #0f5569; letter-spacing: 0; font-family: 'AeonikRegular'; font-weight: normal; padding: 20px 29px; resize: none; margin-top: 11px; height: 167px;}
+.communication-form-col textarea::placeholder{font-size: 18px; line-height: 22px; color: #0f5569; letter-spacing: 0; font-family: 'AeonikRegular'; font-weight: normal;}
+.communication-content{ float: left; width: 100%; margin-top: 12px;}
+.communication-content p{ font-size: 12px; line-height: 22px; letter-spacing: 0.5px; color: #0f5569; font-family: 'AeonikRegular'; font-weight: normal; text-align: center;}
+
+/* telephone style */
+.communication-form .intl-tel-input { position: relative; display: inline-block; float: left; width: 100%;}
+.intl-tel-input .flag-dropdown {width: 100%; max-width: 85px; background-color: #e5f1ff; border: none; border-right: 0; top: 1px; bottom: 1px; padding: 0; left: 1px;}
+.communication-form .intl-tel-input .selected-flag { z-index: 1; position: relative; width: 100%; height: 100%; padding: 0; }
+.communication-form .intl-tel-input .selected-flag .arrow.up { border: none; }
+.communication-form .intl-tel-input input[type=tel]{padding-left: 101px;}
+.communication-form .intl-tel-input .selected-flag .iti-flag {left: auto; right: 16px; top: 50%; margin-top: 0; transform: translateY(-50%); }
+.communication-form .intl-tel-input .flag-dropdown:hover .selected-flag {  background-color: #e5f1ff;  }
+.communication-form .intl-tel-input .selected-flag .arrow{left: auto}
+.communication-form .intl-tel-input .selected-flag .arrow { position: relative; top: 0; margin-top: 0; left: auto; width: 9px; height: 0; border-left: 0; border-right: 0; border-top: 0;  border-radius: 92px; background-image: url(../svgs/contact/chevron-down.svg); width: 16px; height: 16px; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+.communication-form .intl-tel-input .country-list { max-width: 100%; width: 100%; padding: 23px; border-radius: 14px; margin: 1px 0; }
+.communication-form .intl-tel-input .country-list .country { padding: 5px 10px 5px 0; overflow: hidden; }
+.communication-form .intl-tel-input .country-list .flag-box { display: inline-block;}
+.communication-form .intl-tel-input .country-list .iti-flag{display: block}
+.communication-form .intl-tel-input .country-list .divider, preferred{display: block;}
+.country-list .country-name{display: none;}
+.communication-form .iti-flag{display: none}
+.communication-form .intl-tel-input.separate-dial-code .selected-dial-code { font-size: 16px; line-height: 20px; padding-top: 1px; font-weight: 700; padding-left: 30px; }
+.communication-form .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 .selected-flag { width: 85px; outline: none}
+.communication-form .intl-tel-input.separate-dial-code .selected-flag {background-color: transparent; display: block;  padding: 10px 0; outline: none}
+.communication-form .intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container { float: left; width: 100%; height: 86%; bottom: 0; top: auto; }
+.communication-form .intl-tel-input {float: left; width: 100%; }
+.communication-form .intl-tel-input .country-list.dropup { bottom: -10px; margin-bottom: -1px; position: relative; float: left; width: 100%; }
+.communication-form .intl-tel-input .country-list { position: relative; overflow-x: hidden}
+.communication-form .intl-tel-input .selected-flag .iti-arrow{content: ''; position: absolute; border: none; left: auto; top: 18px; width: 16px;height: 16px; background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: url(../svgs/contact/chevron-down.svg); }
+.communication-form .intl-tel-input.allow-dropdown .flag-container:hover .selected-flag { background-color: transparent; }
+.communication-form .intl-tel-input.allow-dropdown .flag-container .selected-flag {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row wrap; flex-flow: row wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; width: 85px;}
+.communication-form .intl-tel-input.allow-dropdown .flag-container .selected-flag:after{position: absolute; content: ''; top: 50%; right: 4px; transform: translateY(-50%); width: 1px; height: 37px; background-color: #0f5569;}
+.communication-form .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel]{padding-left: 101px;}
+.communication-form .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel] { padding-left: 100px; }
+/* telephone style */
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*	Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+ 
+    /* === Journey section Beginning === */
+    .journey-section{background-color: #f7fbfc;}
+    .journey-section .common-wrap { padding: 0; }
+    .journey-inner { border-radius: 65px; border-top-left-radius: 0; border-top-right-radius: 0; padding: 41px 0 81px 0;}
+    .journey-section { margin-top: 70px; }
+    .journey-content h5 { font-size: 14px; line-height: 22px; letter-spacing: 0.58px; }
+    .journey-content h2 { font-size: 35px; line-height: 35px; letter-spacing: 0; margin-top: 9px;}
+    .journey-content p { max-width: 300px; margin: 21px auto 0; }
+    .journey-main { padding: 0 32px; }
+    /* === Journey section End === */
+    
+    
+    /* === Communication section Beginning === */
+    .communication-section { margin-top: 0;}
+    .communication-section .common-wrap { padding: 0; }
+    .communication-inner { border-top-left-radius: 0; border-top-right-radius: 0; padding: 27px 0 114px 0; }
+    .communication-main { padding: 0 32px; }
+    .communication-content { margin-top: 12px; }
+    .communication-form-col { margin-top: 30px; }
+    .communication-form-row input[type="submit"] { margin-top: 20px; }
+    /* === End section Beginning === */
+    .communication-form .intl-tel-input.allow-dropdown .flag-container .selected-flag { width: 78px; }
+    .communication-form .intl-tel-input.separate-dial-code .selected-dial-code {padding-left: 15px;}
+
+    
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    
+    
+    /* === Journey section Beginning === */
+    .journey-section { margin-top: 70px; background-color: #f7fbfc;}
+    .journey-section .common-wrap { padding: 0; }
+    .journey-inner { border-radius: 60px; border-top-left-radius: 0; border-top-right-radius: 0; padding: 40px 0 66px 0;}
+    .journey-content h2 { line-height: 36px; font-size: 36px; }
+    .journey-content p { max-width: 326px; margin: 20px auto 0; }
+    /* === Journey section End === */
+    
+    
+    /* === Communication section Beginning === */
+    .communication-section { margin-top: 0; }
+    .communication-section .common-wrap { padding: 0; }
+    .communication-inner { border-top-left-radius: 0; border-top-right-radius: 0; padding: 70px 0 124px 0; }
+    .communication-main { padding: 0 32px; }
+    /* === Communication section End === */
+
+}
+
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    
+    
+    /* === Journey section Beginning === */
+    .journey-main { padding: 0 32px;}
+    .journey-content h2 { font-size: 45px; line-height: 45px; }
+    /* === Journey section End === */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
